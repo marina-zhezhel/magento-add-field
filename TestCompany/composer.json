@@ -1,0 +1,11 @@
+{
+	"name": "TestCompany/AddField",
+	"autoload": {
+		"psr-4": {
+			"TestCompany\\AddField\\": ""
+		},
+		"files": [
+			"registration.php"
+		]
+	}
+}
