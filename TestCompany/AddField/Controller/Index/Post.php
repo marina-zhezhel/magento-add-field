@@ -6,8 +6,8 @@
  */
 namespace TestCompany\AddField\Controller\Index;
 
-use Magento\Contact\Model\ConfigInterface;
-use Magento\Contact\Model\MailInterface;
+use TestCompany\AddField\Model\ConfigInterface;
+use TestCompany\AddField\Model\MailInterface;
 use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Framework\Controller\Result\Redirect;
@@ -19,7 +19,7 @@ use Magento\MediaStorage\Model\File\UploaderFactory;
 use Magento\Framework\Filesystem;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
-class Post extends \Magento\Contact\Controller\Index
+class Post extends \TestCompany\AddField\Controller\Index
 {
 
     /**

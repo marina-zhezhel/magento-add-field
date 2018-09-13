@@ -9,8 +9,8 @@ use Magento\Framework\Translate\Inline\StateInterface;
 use Magento\Store\Model\StoreManagerInterface;
 use Magento\Framework\App\ObjectManager;
 use Magento\Framework\App\Area;
-use Magento\Contact\Model\MailInterface;
-use Magento\Contact\Model\ConfigInterface;
+use TestCompany\AddField\Model\MailInterface;
+use TestCompany\AddField\Model\ConfigInterface;
 use TestCompany\AddField\Model\Mail\TransportBuilder;
 
 class Mail implements MailInterface
